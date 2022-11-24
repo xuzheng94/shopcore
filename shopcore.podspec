@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     s.resources  = "Shopcore.framework/*.bundle","*.xib","Shopcore.framework/Libs/*"
     s.source_files  = "Shopcore.framework/Headers/*.{h,m}"
     # 公开头文件地址
-    # s.public_header_files = "Pod/Classes/**/*.h"
+    s.public_header_files = "Shopcore.framework/Headers/*.h"
     # 所需的系统framework，多个用逗号隔开，不需要后缀名
     # s.framework  = "SomeFramework"
     s.frameworks = "UIKit"
