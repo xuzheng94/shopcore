@@ -30,10 +30,10 @@ Pod::Spec.new do |s|
     
     # 必备项，代码源文件地址，如果有多个目录下则用逗号分开,否则"public_header_files"等不可用
     # s.source_files  = "GSLXYKeychainDeviceID/KeychainDeviceID/**/*.{h,m}"                               
-    s.resources  = "Shopcore.framework/*.bundle","*.xib","Shopcore.framework/Libs/*"
-    s.source_files  = "Shopcore.framework/Headers/*.{h,m}"
+    s.resources  = "Shopcore/Shopcore.framework/*.bundle","*.xib","Shopcore.framework/Libs/*"
+    s.source_files  = "Shopcore/Shopcore.framework/Headers/*.{h,m}"
     # 公开头文件地址
-    s.public_header_files = "Shopcore.framework/Headers/*.h"
+    s.public_header_files = "Shopcore/Shopcore.framework/Headers/*.h"
     # 所需的系统framework，多个用逗号隔开，不需要后缀名
     # s.framework  = "SomeFramework"
     s.frameworks = "UIKit"
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
     # s.library   = "iconv"
     # s.libraries = "iconv", "xml2"
     # 第三方或自己创建的 .Framework的名称
-    s.vendored_frameworks = "Shopcore.framework/Libs/Cordova.framework"
+    s.vendored_frameworks = "Shopcore/Shopcore.framework","Shopcore/Shopcore.framework/Libs/*.framework"
     # 第三方或自己创建的 .a静态库的名称
     # s.vendored_libraries = "libYostarStaticLib.a"
     # 添加资源文件
