@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
     # 项目的名称
     s.name             = "Shopcore"   
     # 项目的版本号，通过项目git的tag标签进行对应，这里的标签代表的版本 
-    s.version          = "1.0.5"    
+    s.version          = "1.0.6"    
     # 项目简单的描述信息        
-    s.summary          = "5 Version"  
+    s.summary          = "6 Version"  
     # 项目的详细描述信息，注意，这里的文字的长度，一定要比上面的s.summary长，不然会认为格式不合格
     s.description  = "<<-DESC this project provide all kind of KeychainDeviceID for iOS developer DESC"
     # 项目的网页主页信息，这里可以直接写自己的远程仓库的主页的地址
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
     # s.library   = "iconv"
     # s.libraries = "iconv", "xml2"
     # 第三方或自己创建的 .Framework的名称
-    s.vendored_frameworks = "Shopcore/shopcore.framework"
+    s.vendored_frameworks = "shopcore.framework"
     # "Shopcore/Shopcore.framework/Libs/*.framework"
     # 
     # 第三方或自己创建的 .a静态库的名称
