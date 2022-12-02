@@ -60,25 +60,25 @@
 		<data>
 		GQ2oqXYbpjtjhU4D+/tNCttaQ3M=
 		</data>
-		<key>Headers/App.h</key>
-		<data>
-		rs8c5gr5K+cA+tjri4uuzPmXFFc=
-		</data>
-		<key>Headers/ConfigRequest.h</key>
-		<data>
-		rHtq/r+LwNP79cqFKyWwDjGvMDc=
-		</data>
-		<key>Headers/FacadeViewController.h</key>
-		<data>
-		pQ3S7zJtK30X9c+sdcjVQajEz9Y=
-		</data>
 		<key>Headers/NavigationManager.h</key>
 		<data>
-		7jxz7fLLFFNlrjXJhVgRv0iFetw=
+		2BAJOV65DLLpmIZZ4gkAMzQ6bYc=
 		</data>
 		<key>Headers/SPViewController.h</key>
 		<data>
-		99T3YBDnhGY/yOwIAjFFtMa+AoM=
+		x1b7vXxHm4vDTVnn9V5x+QJAcdY=
+		</data>
+		<key>Headers/SQShopApi.h</key>
+		<data>
+		/6Mctrxm7TRSqFcomgT2orlyur4=
+		</data>
+		<key>Headers/SQShopModel.h</key>
+		<data>
+		+Y52Cw6pKaNwgyx6OcbD/j/3eso=
+		</data>
+		<key>Headers/SQShopViewController.h</key>
+		<data>
+		AdawTploX8SVMlkL2Cu3Ma3rVHE=
 		</data>
 		<key>Headers/ShopCoreManager.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/shopcore.h</key>
 		<data>
-		RVM9JEV+BGO+EXF6HF+1zU7spnQ=
+		ZOSHeGRAx9xRAleWSrY/Yvsz5RY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -103,6 +103,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		lGuePNxREhrik8A7XGbWU8TQkoo=
+		</data>
+		<key>README.txt</key>
+		<data>
+		t5TLJCVkq9gdHroEZum7bwvCtQU=
 		</data>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>
 		<data>
@@ -3391,39 +3395,39 @@
 			GV6PLx/qtjxEAqs2O2pGvXtQw4xaylnfuSXATNh9R9A=
 			</data>
 		</dict>
-		<key>Headers/App.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1sgUBWFfOtLcm52qnlPc2mf3HeiFG26aJ7EzcehjSSc=
-			</data>
-		</dict>
-		<key>Headers/ConfigRequest.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fZf5Lp395u3xd6V0c1JPmgEpctjo9l0Lh8TQNQlwVAo=
-			</data>
-		</dict>
-		<key>Headers/FacadeViewController.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ahParyLNtlSFpVm0Njs5oHjJFOoWn4lQbXCesnCXs/0=
-			</data>
-		</dict>
 		<key>Headers/NavigationManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jxun3ENcK3llgXj8/Z2xfRZ3eNzU1M9XV/EB52/RXbA=
+			RFBDD80/fBYVLAMOlHtB7J9m6m7uRlheK03Mn2mUAJE=
 			</data>
 		</dict>
 		<key>Headers/SPViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AJwRDULOU29j47dM6mHbEje8+vrb3PDqgSjHkM3Fba4=
+			zloyCAfgbO67GzzEeFS9L4tv3/60eOujGA16EFWjr2Q=
+			</data>
+		</dict>
+		<key>Headers/SQShopApi.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			luK8o60D8A8nAXm7/avMsrkyR25kqlIPbeZuE7Pu2UA=
+			</data>
+		</dict>
+		<key>Headers/SQShopModel.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LtK7WYYX40gosKSjVlzWjQIn+TA2hSbgojMYRj/vLok=
+			</data>
+		</dict>
+		<key>Headers/SQShopViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3bXYwzHM05rQ8uN1wCH+JsdHPj7xElUMJl9zFG9jCws=
 			</data>
 		</dict>
 		<key>Headers/ShopCoreManager.h</key>
@@ -3444,7 +3448,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8rNlezKllodX5Jv4SVLlgCzHx/pcEzQ0BqF2dPH1Hno=
+			3UhLcCbYja18cRcHMTxiu2t3vISlgS4AkERl9eHt/c8=
 			</data>
 		</dict>
 		<key>LICENSE</key>
@@ -3459,6 +3463,13 @@
 			<key>hash2</key>
 			<data>
 			ZLLWiemoCMOV2t9JB7XgPVEHM5RdeXN7U1TVMJX9Sos=
+			</data>
+		</dict>
+		<key>README.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LG9FW6QOxQ0SqLuac33oylfYOp/xsY1euo90jxhXGPY=
 			</data>
 		</dict>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>

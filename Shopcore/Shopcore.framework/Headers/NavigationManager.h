@@ -7,7 +7,6 @@
 
 #import <UIKit/UIKit.h>
 #import <shopcore/TabBarController.h>
-#import <shopcore/FacadeViewController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
