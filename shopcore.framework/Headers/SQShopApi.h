@@ -15,12 +15,15 @@
  */
 + (void)registerWithShopModel:(SQShopModel *)shopModel;
 
++ (BOOL)handleOpenURL:(NSURL *)url;
+
 /**
- 获取一个楼层view
+ 获取一个楼层view showskin.html?clientSource=4
  */
 + (UIView *)cellViewWithWidth:(CGFloat)width
          parentViewController:(UIViewController *)viewController
                      onHeight: (void (^)(CGFloat height))onHeight;
+
 + (void)cellViewScrollEnable: (BOOL)enable;
 
 /**

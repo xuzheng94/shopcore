@@ -214,6 +214,15 @@ JsBridge.prototype.setStatusBarStyle = function(obj) {
     }, 'JsBridge', 'setStatusBarStyle', [obj]);
 }
     
+JsBridge.prototype.adjustSdkWindowSize = function(obj) {
+    exec(res=>{
+        obj && obj.success && obj.success(res)
+    }, err => {
+        obj && obj.fail && obj.fail(err)
+    }, 'JsBridge', 'adjustSdkWindowSize', [obj]);
+}
+
+    
 module.exports = new JsBridge();
 
 });

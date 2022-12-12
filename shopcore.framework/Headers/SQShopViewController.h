@@ -12,9 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SQShopViewController : SPViewController
 
-+ (instancetype)initWithOnHeight:(void (^)(CGFloat))onHeight;
+//@property (assign, nonatomic) BOOL scrollEnable;
+@property (nonatomic, copy) void (^onHeight)(CGFloat height);
 
-@property (assign, nonatomic) BOOL scrollEnable;
++ (instancetype)cellViewControllerWithWidth:(CGFloat)width;
+
+- (void)adjustHeightWithSize:(NSDictionary *)sizeDic;
+
 
 @end
 

@@ -24,6 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (BOOL)isWXAppInstalled;
 
++ (void)postSwithTab:(NSDictionary *)obj;
++ (void)postLogin:(NSDictionary *)obj;
+
 /**
  打开微信小程序
  @param userName 拉起的小程序的原始id(gh开头)

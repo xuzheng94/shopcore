@@ -141,6 +141,10 @@ Api.prototype.share = function(obj) {
 Api.prototype.setStatusBarStyle = function(obj) {
     plus.jsbridge.setStatusBarStyle(obj)
 }
+Api.prototype.adjustSdkWindowSize = function(obj) {
+    plus.jsbridge.adjustSdkWindowSize(obj)
+}
+
     
 module.exports = new Api();
 
